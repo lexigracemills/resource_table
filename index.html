@@ -1,0 +1,100 @@
+<!-- DOC TYPE -->
+<!DOCTYPE html>
+
+<!-- html -->
+<html style="color:rgb(46, 3, 3);">
+    <!-- head -->
+    <head>
+        <title>Resource Table Site</title>
+        <meta name="author" content="Lexi Mills">
+        <meta name="description" content="This is a site that we use to list resources for web development">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="main.css">
+        <style>
+         body {
+             background-color:lightsteelblue;
+             font-size:20pt;
+             font:small-caps;
+         }
+         h1 {font-size:36pt;
+            font:bold}
+
+        </style>
+    </head>
+
+
+<!-- body element -->
+<body>
+
+    <!-- header text for our site -->
+    <h1 style="color:rgb(12, 9, 54)">My Web Development Resources</h1>
+    <!-- this is an anchor tag to link two sites -->
+    <!-- the href is the url that the anchor tag navigates to -->
+    <!-- the target attribute determines how the link is opened in a browser. _blank opens a new tab -->
+    <a href="https://www.Google.com" target="_blank">Google</a> 
+
+    <!-- this is a containter for an HTMK table -->
+    <table>
+        <!-- tables in HTML consist of multiple rows and columns. Each row will have data that will be stored in each column. -->
+        <!-- tables can also have headers for the columns that we can display -->
+       <!-- each row is a tr element -->
+        <tr>
+            <!-- th is a table header -->
+            <th>Resource</th>
+            <th>Description</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <!-- td elements are table data -->
+            <td>W3Schools</td>
+            <td>Web Development, Tutorials, and Documentation</td>
+            <td>
+                <a href="https://www.w3schools.com" target="_blank">Link</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Mozilla Development Network</td>
+            <td>Web Development, Tutorials, and Documentation</td> 
+            <td>    
+                <a href="https://developer.mozilla.org/en-US/" target="_blank">Link</a>
+            </td>   
+        </tr>
+
+        <tr>
+            <td>Stack Overflow</td>
+            <td>The ultimate place for oding question answers.</td>
+            <td>
+                <a href="https://stackoverflow.com/" target="_blank">Link</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Chrome DevTools</td>
+            <td>How to use this crazy nice debugging tool</td>
+            <td>
+                <a href="https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2018Q2" target="_blank">Link</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>VSCode Keyboard Shortcuts</td>
+            <td>List of keyboard shortcuts for VSCode</td>
+            <td>
+                <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf" target="_blank">Link</a>
+            </td>
+        </tr>
+    
+
+    </table>
+
+    
+ 
+
+</body>
+
+
+
+</html>
